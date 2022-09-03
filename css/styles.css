@@ -294,12 +294,6 @@ footer p {
     .header__nav {
         padding: 10px 0;
     }
-    .info {
-        flex-direction: column;
-        height: auto;
-        align-items: center;
-        justify-content: center;
-    }
 }
 
 @media (max-width:700px) {
