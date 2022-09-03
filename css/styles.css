@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Amaranth', sans-serif;
+}
+
+body {
+    background-image: url("../assets/img/infantil2.jpg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.container {
+    min-height: calc(100vh - 8rem - 8rem);
+}
+
+
+/* ########## HEADER ########## */
+
+.header {
+    min-height: 8rem;
+    background-color: #c9e165;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.header__logo {
+    display: flex;
+    cursor: pointer;
+}
+
+.header__logo img {
+    height: 8rem;
+    transition: all 0.3s;
+    margin-left: 30px;
+}
+
+.header__logo img:hover {
+    transform: scale(1.2);
+}
+
+.header__nav-links {
+    text-decoration: none;
+    color: #008080;
+    padding-right: 3rem;
+    font-size: 2rem;
+}
+
+.header__nav-links:hover {
+    transform: scale(1.1);
+    color: #FF5733;
+}
+
+.header__btn {
+    font-weight: 700;
+    color: white;
+    padding: 9px 25px;
+    background-color: #FF5733;
+    border: none;
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 2rem;
+}
+
+.header__btn:hover {
+    background-color: #f0f3f4;
+    color: #008080;
+    transform: scale(1.1);
+}
+
+.container {
+    min-height: calc(100vh - 70px - 70px);
+}
+
+
+/* ########## PAGINA INICIO - SLIDER ##########*/
+
+.slide {
+    margin-top: 1rem;
+    max-width: 80rem;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.slide img {
+    height: 30rem;
+    border-radius: 10px;
+}
+
+
+/* ########## FOOTER ########## */
+
+footer {
+    min-height: 8rem;
+    background-color: #008080;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p {
+    font-size: 2rem;
+}
+
+.main-footer {
+    display: flex;
+    padding-top: 5px;
+}
+
+.copyright {
+    display: flex;
+    padding-top: 5px;
+}
+
+.red-social {
+    display: flex;
+    padding-top: 5px;
+}
+
+.red-social img {
+    display: flex;
+    width: 3rem;
+    padding-top: 7px;
+}
+
+.red-social p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2rem;
+    font-family: 'Great Vibes', cursive;
+    font-size: 4rem;
+}
+
+
+/* ########## RESPONSIVE ######### */
+
+@media screen and (max-width: 768px) {
+    footer {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:700px) {
+    .header {
+        flex-direction: column;
+    }
+    .header__nav {
+        padding: 10px 0;
+    }
+}
+
+@media (max-width:700px) {
+    footer {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:480px) {
+    .header {
+        flex-direction: column;
+    }
+    .header__nav {
+        display: flex;
+        padding: 10px 0;
+        justify-content: center;
+    }
+}
