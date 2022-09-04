@@ -30,7 +30,29 @@
     </header>
 
     <main class="container">
+        <form method="get" class="contacto">
+            <h1 class="contacto__title">CONTACTO</h1>
+            <div>
+                <input type="text" class="contacto__input" name="nombre" id="nombre" placeholder="Nombre">
+                <input type="email" class="contacto__input" name="email" id="email" placeholder="email">
+                <input type="tel" class="contacto__input" placeholder="Telefono">
+            </div>
+            <div class="contacto__select">
+                <p>Sexo:
+                    <select name="sexo">
+                    <option value="femenino">Femenino</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="nobinario">No Binario</option>
+                    <option value="nonspecific">Prefiero no especificar</option>
+                </select>
+                </p>
+            </div>
 
+            <div>
+                <textarea class="contacto__textarea" name="comentarios" id="comentarios" cols="30" rows="10" placeholder="Dejanos un comentario"></textarea>
+            </div>
+            <button type="submit" class="contacto__btn">Enviar</button>
+        </form>
     </main>
 
 
