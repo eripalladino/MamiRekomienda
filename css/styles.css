@@ -589,6 +589,42 @@ body {
 .contacto__btn:hover {
     cursor: pointer;
     background-color: #008080;
+    background-color: rgba(255, 87, 51, 0.5);
+    margin: 3rem auto;
+    max-width: 50rem;
+    border: 2px solid #FF5733;
+    border-radius: 1.5rem;
+}
+
+.jumbotron {
+    background-color: rgba(255, 87, 51, 0.2);
+    padding: 1.5rem;
+}
+
+.jumbotron h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0px 1px #A5C9CA;
+}
+
+label,
+input,
+textarea,
+select,
+option,
+input[type="submit"] {
+    font-size: 1.4rem;
+    margin-top: .3rem;
+    color: #293462;
+}
+
+.contacto__form {
+    padding: .5rem 1.5rem;
+}
+
+.btn-primary {
+    width: 100%;
 }
 
 
