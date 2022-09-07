@@ -25,51 +25,58 @@ body {
 /* ########## HEADER ########## */
 
 .header {
-    min-height: 8rem;
+    height: 80px;
     background-color: #c9e165;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
 }
 
 .header__logo {
-    display: flex;
     cursor: pointer;
-}
-
-.header__logo img {
-    height: 8rem;
+    margin-right: auto;
+    height: 70px;
+    width: auto;
     transition: all 0.3s;
-    margin-left: 30px;
 }
 
-.header__logo img:hover {
+.header__logo:hover {
     transform: scale(1.2);
 }
 
-.header__nav-links {
-    text-decoration: none;
-    color: #008080;
-    padding-right: 3rem;
-    font-size: 2rem;
+.navbar {
+    height: 80px;
+    font-size: 6rem;
+    z-index: 4;
 }
 
-.header__nav-links:hover {
+.navbar-brand img {
+    margin-left: 20px;
+    width: auto;
+    height: 60px;
+    transition: all 0.3s;
+}
+
+.nav-link {
+    margin-right: 20px;
+    color: #008080!important;
+}
+
+.nav-link:hover {
     transform: scale(1.1);
-    color: #FF5733;
+    color: #FF5733!important;
+}
+
+.navbar-toogle {
+    width: 10rem;
+    height: 10rem;
 }
 
 .header__btn {
-    font-weight: 700;
     color: white;
-    padding: 9px 25px;
+    padding: 0 9px;
     background-color: #FF5733;
     border: none;
     border-radius: 5rem;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    font-size: 2rem;
 }
 
 .header__btn:hover {
@@ -527,7 +534,7 @@ body {
 /*formulario de contacto*/
 
 .contacto {
-    width: 500px;
+    max-width: 500px;
     margin: auto;
     background: rgba(229, 82, 14, 0.4);
     padding: 10px 20px;
