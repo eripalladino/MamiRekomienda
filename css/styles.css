@@ -60,7 +60,6 @@ body {
 }
 
 .nav-link:hover {
-    transform: scale(1.1);
     color: #FF5733!important;
 }
 
@@ -246,7 +245,6 @@ body {
     margin: auto;
     max-width: 1000px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     padding: 2rem;
 }
@@ -254,7 +252,6 @@ body {
 .sobreMi__img {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .sobreMi__img img {
@@ -305,8 +302,8 @@ body {
     height: 43rem;
     width: 100%;
     object-fit: cover;
-    border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .noticia:nth-child(2) {
@@ -728,18 +725,18 @@ footer p {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 912px) {
     .sobreMi {
-        margin: auto;
-        margin-top: 20px;
+        margin: 20px auto;
+        max-width: 100%;
         display: flex;
         flex-direction: column;
-        max-width: 1000px;
+        width: auto;
         height: auto;
-        padding: 10px 20px;
+        padding: 0 30px;
     }
     .sobreMi__texto {
-        width: 380px;
+        max-width: 100%;
         margin: auto;
         border-bottom-right-radius: 20px;
         border-bottom-left-radius: 20px;
@@ -747,11 +744,14 @@ footer p {
         border-top-left-radius: 0;
     }
     .sobreMi__img img {
+        max-width: 100%;
         margin: auto;
+        padding: 0 30px;
         border-bottom-right-radius: 0;
         border-bottom-left-radius: 0;
         border-top-right-radius: 20px;
         border-top-left-radius: 20px;
+        background-image: linear-gradient(to right, rgba(229, 82, 14, 0.5) 50%, rgba(229, 82, 14) 100%);
     }
 }
 
