@@ -389,74 +389,41 @@ body {
 
 .eventos__title {
     text-align: center;
-    font-size: 40px;
+    font-size: 3rem;
     background-color: #FF5733;
-    width: 1000px;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    max-width: 90rem;
+    margin: 2rem auto;
     color: white;
     border-radius: 10px;
 }
 
-.imagenes {
-    margin: auto;
-    width: 800px;
-    padding: 30px;
+.carousel-link a {
+    font-size: 1.5rem;
 }
 
-.imagenes__slider {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    position: relative;
-    width: 800px;
-    height: 400px;
+.cards {
+    margin-bottom: 2rem;
 }
 
-.imagenes__slider li {
-    position: absolute;
-    opacity: 0;
-    width: inherit;
-    height: inherit;
-    transition: opacity .5s;
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
 }
 
-.imagenes__slider li img {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
+.card-text {
+    font-size: 1.5rem;
 }
 
-.imagenes__slider li:first-child {
-    opacity: 1;
-}
-
-.imagenes__slider li:target {
-    opacity: 1;
-}
-
-.imagenes__menu-slide {
-    text-align: center;
-    margin: 20px;
-    list-style: none;
-}
-
-.imagenes__menu-slide li {
-    display: inline-block;
-    text-align: center;
-}
-
-.imagenes__menu-slide li a {
-    display: inline-block;
-    color: white;
+.card-link {
+    font-size: 1.5rem;
     text-decoration: none;
-    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #2fb4cc;
     padding: 5px;
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
-    border-radius: 100%;
+    color: #fff;
 }
 
 
