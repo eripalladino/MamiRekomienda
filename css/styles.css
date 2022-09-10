@@ -236,43 +236,37 @@ body {
 /* ######### PAGINA SOBRE MI #########*/
 
 .sobreMi {
-    position: relative;
     margin: auto;
-    width: 1000px;
-    height: 540px;
-    background: rgba(229, 82, 14, 0.3);
-    border-radius: 10px;
-}
-
-.sobreMi__title {
-    text-align: center;
-    font-size: 40px;
-    background-color: #FF5733;
-    width: 1000px;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    color: white;
-    border-radius: 10px;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
 }
 
 .sobreMi__img {
-    width: 300px;
-    height: auto;
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 10px;
-    border-radius: 10px;
+    display: flex;
+    justify-content: center;
 }
 
-.sobreMi__text {
-    position: relative;
-    margin-top: 20px;
-    top: 40px;
-    width: 950px;
-    margin: auto;
-    text-align: justify;
-    font-size: 16px;
+.sobreMi__img img {
+    max-width: 380px;
+    height: auto;
+}
+
+.sobreMi__texto {
+    font-size: 2.5rem;
+    padding: 20px 20px;
+    background-image: linear-gradient(to right, rgba(229, 82, 14, 0.5) 50%, rgba(229, 82, 14) 100%);
+}
+
+.sobreMi__texto h1 {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #fff;
+    margin: 2rem;
+    max-width: 100%;
+    color: #FF5733;
+    border-radius: 10px;
 }
 
 
@@ -656,6 +650,22 @@ footer p {
         height: 30rem;
         width: 100%;
         object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .sobreMi {
+        margin: auto;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        max-width: 1000px;
+        height: auto;
+        padding: 10px 20px;
+    }
+    .sobreMi__texto {
+        width: 380px;
+        margin: auto;
     }
 }
 
