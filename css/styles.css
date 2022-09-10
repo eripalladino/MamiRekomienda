@@ -303,7 +303,7 @@ body {
     width: 100%;
     object-fit: cover;
     border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 .noticia:nth-child(2) {
