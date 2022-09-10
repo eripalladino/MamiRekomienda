@@ -246,13 +246,15 @@ body {
     margin: auto;
     max-width: 1000px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    padding: 20px;
+    padding: 2rem;
 }
 
 .sobreMi__img {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .sobreMi__img img {
@@ -264,7 +266,7 @@ body {
 
 .sobreMi__texto {
     font-size: 2.5rem;
-    padding: 20px 20px;
+    padding: 20px;
     background-image: linear-gradient(to right, rgba(229, 82, 14, 0.5) 50%, rgba(229, 82, 14) 100%);
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
@@ -745,6 +747,7 @@ footer p {
         border-top-left-radius: 0;
     }
     .sobreMi__img img {
+        margin: auto;
         border-bottom-right-radius: 0;
         border-bottom-left-radius: 0;
         border-top-right-radius: 20px;
