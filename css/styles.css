@@ -57,6 +57,9 @@ body {
 .nav-link {
     margin-right: 20px;
     color: #008080!important;
+    background-color: #c9e165;
+    width: 75px;
+    text-align: center;
 }
 
 .nav-link:hover {
@@ -437,64 +440,6 @@ body {
 }
 
 
-/* Eventos Cards */
-
-.eventos {
-    margin: auto;
-    max-width: 1500px;
-    margin-top: 20px;
-    display: flex;
-}
-
-.eventos__card {
-    width: 100%;
-    margin: 20px;
-    border-radius: 6px;
-    overflow: hidden;
-    background: #fff;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-    cursor: default;
-    transition: all 400ms ease;
-}
-
-.eventos__card:hover {
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-    transform: translateY(-3%);
-}
-
-.eventos__card img {
-    width: 100%;
-    height: 210px;
-}
-
-.card__content-eventos h3 {
-    padding: 15px;
-    text-align: center;
-    font-weight: 400;
-}
-
-.card__content-eventos {
-    padding: 15px;
-    text-align: center;
-}
-
-.card__content-eventos a {
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px;
-    margin-top: 10px;
-    color: #2fb4cc;
-    border: 1px solid #2fb4cc;
-    border-radius: 4px;
-    transition: all 400ms ease;
-}
-
-.card__content-eventos a:hover {
-    background: #2fb4cc;
-    color: white;
-}
-
-
 /*formulario de contacto*/
 
 .contacto {
@@ -540,7 +485,7 @@ body {
     font-size: 1.7rem;
 }
 
-.contacto__select select {
+.contacto__select {
     width: 85%;
     height: 3.8rem;
     float: right;
