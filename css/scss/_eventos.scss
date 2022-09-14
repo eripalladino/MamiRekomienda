@@ -1,0 +1,38 @@
+.eventos__title {
+    text-align: center;
+    font-size: 3rem;
+    background-color: #FF5733;
+    max-width: 90rem;
+    margin: 2rem auto;
+    color: white;
+    border-radius: 10px;
+}
+
+.carousel-link a {
+    font-size: 1.5rem;
+}
+
+.cards {
+    margin-bottom: 2rem;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.card-text {
+    font-size: 1.5rem;
+}
+
+.card-link {
+    font-size: 1.5rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #2fb4cc;
+    padding: 5px;
+    color: #fff;
+}

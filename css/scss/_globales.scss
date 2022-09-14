@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Amaranth', sans-serif;
+    /* font-size: 1rem; */
+}
+
+body {
+    background-image: url("../assets/img/infantil2.jpg");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.container {
+    min-height: calc(100vh - 8rem - 8rem);
+}

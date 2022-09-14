@@ -1,0 +1,33 @@
+.sobreMi {
+    margin: auto;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    .sobreMi__img {
+        display: flex;
+        justify-content: center;
+        img {
+            max-width: 380px;
+            height: auto;
+            border-bottom-left-radius: 20px;
+            border-top-left-radius: 20px;
+        }
+    }
+    .sobreMi__texto {
+        font-size: 2.5rem;
+        padding: 20px;
+        background-image: linear-gradient(to right, rgba(229, 82, 14, 0.5) 50%, rgba(229, 82, 14) 100%);
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+        h1 {
+            font-size: 3rem;
+            text-align: center;
+            background-color: #fff;
+            margin: 2rem;
+            max-width: 100%;
+            color: #FF5733;
+            border-radius: 10px;
+        }
+    }
+}
