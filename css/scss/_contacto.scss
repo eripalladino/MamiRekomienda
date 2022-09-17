@@ -26,7 +26,7 @@
         input[type="submit"] {
             font-size: 1.4rem;
             margin-top: .3rem;
-            color: #293462;
+            color: map-get($map: $pallette, $key: 'blue');
         }
         .btn-primary {
             width: 100%;

@@ -1,6 +1,6 @@
 .header {
     height: 80px;
-    background-color: #c9e165;
+    background-color: map-get($map: $pallette, $key: 'primary');
     .header__logo {
         cursor: pointer;
         margin-right: auto;
@@ -27,13 +27,13 @@
     }
     .nav-link {
         margin-right: 20px;
-        color: #008080!important;
-        background-color: #c9e165;
+        color: map-get($map: $pallette, $key: 'secondary')!important;
+        background-color: map-get($map: $pallette, $key: 'primary');
         width: 75px;
         text-align: center;
     }
     .nav-link:hover {
-        color: #FF5733!important;
+        color: map-get($map: $pallette, $key: 'background')!important;
     }
     .navbar-toogle {
         width: 10rem;
@@ -42,7 +42,7 @@
     .header__btn {
         color: white;
         padding: 0 9px;
-        background-color: #FF5733;
+        background-color: map-get($map: $pallette, $key: 'background');
         border: none;
         border-radius: 5rem;
         cursor: pointer;

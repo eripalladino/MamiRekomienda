@@ -6,7 +6,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     .noticia {
-        background-color: #0078AA;
+        background-color: map-get($map: $pallette, $key: 'blue-2');
         .noticia_texto {
             text-align: center;
             display: flex;

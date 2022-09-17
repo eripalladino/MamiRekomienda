@@ -29,7 +29,7 @@
 .novedades__title {
     max-width: 80rem;
     margin: auto;
-    background-color: #008080;
+    background-color: map-get($map: $pallette, $key: 'secondary');
     padding: 8px;
     padding-left: 3rem;
     color: white;
@@ -80,7 +80,7 @@
             margin-top: 5px;
             text-align: center;
             font-size: 3rem;
-            background-color: #FF5733;
+            background-color: map-get($map: $pallette, $key: 'background');
             a {
                 color: #fff;
                 display: block;
@@ -94,30 +94,30 @@
         transform: translateY(-3%);
     }
     .card-1 .novedades__card-footer {
-        background-color: #293462;
+        background-color: map-get($map: $pallette, $key: 'blue');
     }
     .card-1 .novedades__card-footer:hover {
-        background-color: #3AB4F2;
+        background-color: map-get($map: $pallette, $key: 'sky');
     }
     .card-1 .novedades__card-footer a:hover {
-        color: #293462;
+        color: map-get($map: $pallette, $key: 'blue');
     }
     .card-2 .novedades__card-footer {
-        background-color: #FEB139;
+        background-color: map-get($map: $pallette, $key: 'orange');
     }
     .card-2 .novedades__card-footer:hover {
-        background-color: #F2DF3A;
+        background-color: map-get($map: $pallette, $key: 'yellow');
     }
     .card-2 .novedades__card-footer a:hover {
-        color: #0078AA;
+        color: map-get($map: $pallette, $key: 'blue-2');
     }
     .card-3 .novedades__card-footer {
-        background-color: #D61C4E;
+        background-color: map-get($map: $pallette, $key: 'fuchsia');
     }
     .card-3 .novedades__card-footer:hover {
-        background-color: #66BFBF;
+        background-color: map-get($map: $pallette, $key: 'green');
     }
     .card-3 .novedades__card-footer a:hover {
-        color: #FF0063;
+        color: map-get($map: $pallette, $key: 'dark-fuchsia');
     }
 }
