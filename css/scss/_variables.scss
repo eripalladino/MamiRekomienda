@@ -1,1 +1,5 @@
 $pallette:( 'primary': #c9e165, 'secondary': #008080, 'background': #FF5733, 'background2': #0078AA, 'blue': #293462, 'sky': #3AB4F2, 'orange': #FEB139, 'yellow': #F2DF3A, 'blue-2': #0078AA, 'fuchsia': #D61C4E, 'green': #66BFBF, 'dark-fuchsia': #FF0063);
+@mixin tamanos($ancho, $alto) {
+    max-width: $ancho;
+    height: $alto;
+}

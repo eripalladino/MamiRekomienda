@@ -2,10 +2,9 @@
     height: 80px;
     background-color: map-get($map: $pallette, $key: 'primary');
     .header__logo {
+        @include tamanos(auto, 70px);
         cursor: pointer;
         margin-right: auto;
-        height: 70px;
-        width: auto;
         transition: all 0.3s;
     }
     .header__logo:hover {
@@ -19,9 +18,8 @@
     z-index: 4;
     .navbar-brand {
         img {
+            @include tamanos(auto, 60px);
             margin-left: 20px;
-            width: auto;
-            height: 60px;
             transition: all 0.3s;
         }
     }
@@ -36,8 +34,7 @@
         color: map-get($map: $pallette, $key: 'background')!important;
     }
     .navbar-toogle {
-        width: 10rem;
-        height: 10rem;
+        @include tamanos(10rem, 10rem);
     }
     .header__btn {
         color: white;

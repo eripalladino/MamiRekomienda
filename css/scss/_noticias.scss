@@ -1,5 +1,5 @@
 .noticias {
-    max-width: 120rem;
+    @include tamanos(120rem, auto);
     margin: auto;
     padding: 2rem;
     display: grid;

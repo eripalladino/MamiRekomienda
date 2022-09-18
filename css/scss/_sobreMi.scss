@@ -1,6 +1,6 @@
 .sobreMi {
+    @include tamanos(100rem, auto);
     margin: auto;
-    max-width: 1000px;
     display: flex;
     justify-content: space-between;
     padding: 2rem;
@@ -8,8 +8,7 @@
         display: flex;
         justify-content: center;
         img {
-            max-width: 380px;
-            height: auto;
+            @include tamanos(38rem, auto);
             border-bottom-left-radius: 20px;
             border-top-left-radius: 20px;
         }
@@ -21,11 +20,11 @@
         border-bottom-right-radius: 20px;
         border-top-right-radius: 20px;
         h1 {
+            @include tamanos(100%, auto);
             font-size: 3rem;
             text-align: center;
             background-color: #fff;
             margin: 2rem;
-            max-width: 100%;
             color: map-get($map: $pallette, $key: 'background');
             border-radius: 10px;
         }
