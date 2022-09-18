@@ -457,23 +457,33 @@ footer p {
   margin: auto;
   border-radius: 5rem !important;
 }
-.card .card-title {
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 5px 5px 20px rgba(212, 11, 11, 0.4);
+}
+.card .card-body {
+  margin: 10px;
+}
+.card .card-body .card-title {
   text-align: center;
+  color: #D61C4E;
   margin: 5px;
   padding: 5px;
 }
-.card .card-text {
+.card .card-body .card-text {
   text-align: justify;
   margin: 5px;
   padding: 10px;
 }
-.card .card-link {
+.card .card-body .card-link {
   text-align: center;
-  margin-top: 10px auto;
+  margin: auto;
+  margin-top: 10px;
   background-color: #008080;
   border-radius: 20px;
+  width: 60%;
 }
-.card .card-link:hover {
+.card .card-body .card-link:hover {
   background-color: #66BFBF;
   color: #293462;
 }

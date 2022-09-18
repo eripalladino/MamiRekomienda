@@ -6,25 +6,34 @@
 .card {
     margin: auto;
     border-radius: 5rem!important;
-    .card-title {
-        text-align: center;
-        margin: 5px;
-        padding: 5px;
+    &:hover {
+        transform: scale(1.01);
+        box-shadow: 5px 5px 20px rgba(212, 11, 11, 0.4);
     }
-    .card-text {
-        text-align: justify;
-        margin: 5px;
-        padding: 10px;
-    }
-    .card-link {
-        text-align: center;
-        margin-top: 10px auto;
-        background-color: map-get($map: $pallette, $key: 'secondary');
-        border-radius: 20px;
-        &:hover {
-            background-color: map-get($map: $pallette, $key: 'green');
-            color: map-get($map: $pallette, $key: 'blue');
-            ;
+    .card-body {
+        margin: 10px;
+        .card-title {
+            text-align: center;
+            color: map-get($map: $pallette, $key: 'fuchsia');
+            margin: 5px;
+            padding: 5px;
+        }
+        .card-text {
+            text-align: justify;
+            margin: 5px;
+            padding: 10px;
+        }
+        .card-link {
+            text-align: center;
+            margin: auto;
+            margin-top: 10px;
+            background-color: map-get($map: $pallette, $key: 'secondary');
+            border-radius: 20px;
+            width: 60%;
+            &:hover {
+                background-color: map-get($map: $pallette, $key: 'green');
+                color: map-get($map: $pallette, $key: 'blue');
+            }
         }
     }
 }
