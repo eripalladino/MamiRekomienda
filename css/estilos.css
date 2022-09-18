@@ -374,7 +374,7 @@ footer p {
   border-top-right-radius: 20px;
 }
 
-.eventos__title {
+.eventos__title, .recomendaciones__title {
   text-align: center;
   font-size: 3rem;
   background-color: #FF5733;
@@ -447,6 +447,35 @@ footer p {
 }
 .contacto .contacto__form .btn-primary {
   width: 100%;
+}
+
+.recomendaciones__title {
+  background-color: #293462;
+}
+
+.card {
+  margin: auto;
+  border-radius: 5rem !important;
+}
+.card .card-title {
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+}
+.card .card-text {
+  text-align: justify;
+  margin: 5px;
+  padding: 10px;
+}
+.card .card-link {
+  text-align: center;
+  margin-top: 10px auto;
+  background-color: #008080;
+  border-radius: 20px;
+}
+.card .card-link:hover {
+  background-color: #66BFBF;
+  color: #293462;
 }
 
 @media screen and (max-width: 965px) {
