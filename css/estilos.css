@@ -21,7 +21,7 @@ body {
   min-height: calc(100vh - 8rem - 8rem);
 }
 
-.title, .galeria__title, .recomendaciones__title, .eventos__title {
+.title, .juegos__title, .galeria__title, .recomendaciones__title, .eventos__title {
   max-width: 80rem;
   margin: auto;
   background-color: #008080;
@@ -522,6 +522,61 @@ footer p {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.juegos__title {
+  text-align: center;
+  margin: 2rem auto;
+  background-color: #D61C4E;
+}
+
+.juegos {
+  margin: auto;
+  margin-top: 20px;
+  max-width: 80rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.juegos .card-juegos {
+  width: 25rem !important;
+  margin: 10px 0;
+}
+.juegos .card__text-juegos {
+  font-size: 1.5rem;
+  padding: 20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.juegos .card-1 {
+  background-color: #D61C4E;
+}
+.juegos .card-2 {
+  background-color: #ab6bc9;
+}
+.juegos .card-3 {
+  background-color: #3AB4F2;
+}
+.juegos .card-4 {
+  background-color: #FF5733;
+}
+.juegos .card-5 {
+  background-color: #008080;
+}
+.juegos .card-6 {
+  background-color: #D61C4E;
+}
+.juegos .card-7 {
+  background-color: #0078AA;
+}
+.juegos .card-8 {
+  background-color: #ab6bc9;
+}
+.juegos .card-9 {
+  background-color: #FF5733;
 }
 
 @media screen and (max-width: 965px) {

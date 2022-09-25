@@ -1,0 +1,55 @@
+.juegos__title {
+    @extend .title;
+    text-align: center;
+    margin: 2rem auto;
+    background-color: map-get($map: $pallette, $key: 'fuchsia');
+}
+
+.juegos {
+    margin: auto;
+    margin-top: 20px;
+    max-width: 80rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .card-juegos {
+        width: 25rem!important;
+        margin: 10px 0;
+    }
+    .card__text-juegos {
+        font-size: 1.5rem;
+        padding: 20px;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+    .card-1 {
+        background-color: map-get($map: $pallette, $key: 'fuchsia');
+    }
+    .card-2 {
+        background-color: map-get($map: $pallette, $key: 'purple');
+    }
+    .card-3 {
+        background-color: map-get($map: $pallette, $key: 'sky');
+    }
+    .card-4 {
+        background-color: map-get($map: $pallette, $key: 'background');
+    }
+    .card-5 {
+        background-color: map-get($map: $pallette, $key: 'secondary');
+    }
+    .card-6 {
+        background-color: map-get($map: $pallette, $key: 'fuchsia');
+    }
+    .card-7 {
+        background-color: map-get($map: $pallette, $key: 'blue-2');
+    }
+    .card-8 {
+        background-color: map-get($map: $pallette, $key: 'purple');
+    }
+    .card-9 {
+        background-color: map-get($map: $pallette, $key: 'background');
+    }
+}
