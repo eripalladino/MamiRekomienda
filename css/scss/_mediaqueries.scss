@@ -86,6 +86,21 @@
     }
 }
 
+@media (max-width: 560px) {
+    .galeria {
+        .v-stretch {
+            grid-row: span 1;
+        }
+        .h-stretch {
+            grid-column: span 1;
+        }
+        .big-stretch {
+            grid-column: span 1;
+            grid-row: span 1;
+        }
+    }
+}
+
 @media (max-width:480px) {
     .noticias {
         max-width: 120rem;
